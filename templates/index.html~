@@ -1,0 +1,230 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+
+{% include 'nav.html' %}
+
+
+
+   <!-- Introduction
+    ================================================== -->
+        
+        <div class="gray-bg"> <!-- fullwidth gray background -->
+            <br> <br><br><br><br><br>
+            <div class="container"><!-- container -->
+                <div class="row"> <!-- row -->
+
+                    <div class="col-md-6"> <!-- left content col 6 -->
+                        <div class="about-left-content text-center">
+                            <div class="img-wrap"> <!-- profile image wrap -->
+                                <div class="profile-img"> <!-- company profile details -->
+                                    <img src="img/nurse.jpg" class="img-responsive animated bounce" alt="Image"> <!-- change link to your image for your company profile -->
+                                  {{ oembed_tweet(962360585089437696) }}
+  
+                                </div>
+                            </div><!-- end profile image wrap -->
+                            
+                        </div>
+                    </div><!-- end left content col 6 -->
+
+                    <div class="col-md-6"><!-- right content col 6 -->
+                        <div class="about-right-content"> <!-- right content wrapper -->
+                            
+                            <p>This website is all about visualizing the data from the survey conducted on caregivers of people effected with Alzheimer's disease to provide more better services by <strong>IPSCR</strong>. <strong>Alzheimer's is a type of dementia that causes problems with memory, thinking and behavior</strong>.</p> 
+
+                            <p>There were several questionnaires made for the survey and the data collected from the survey is formatted into almost 40 files. These files are categorized into 3 catogeries that are listed below. This visualization website helps the surveyors in better understanding the information.  </p>
+
+                            <p>Apart from visualizing the data , we also incorporate the resources that made this visualization possible through some static web-pages . We also attempted to incorporate some cool features in this visualization tool , so please go through the <strong>Tool usage </strong> section at the bottom of this website for better understanding.</p>
+
+                            <p> Here is the webpage link from where we collected data to make this visualization possible . </p>
+                            
+                            <p class="center"><a  href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/03678" >ICPSR RESOURCES  </a></p>
+
+                            
+                            
+
+                        </div><!-- end right content wrapper -->
+                    </div><!-- end right content col 6 -->
+
+                </div> <!-- end row -->
+            </div><!-- end container -->
+
+
+        </div> <!-- end fullwidth gray background -->
+    </div>
+
+<!--================================================== End Introduction -->
+
+
+    <!-- Small boxes
+    ================================================== -->
+    <div class ="smallbox">
+    <div class="row">
+            <div class="col-lg-12">
+                
+            </div>
+            <div class="col-md-4 animated fadeInLeft">
+                <div class="panel panel-default first">
+                    <div class="panel-heading green">
+                        <h4 class="center"> <strong>SCREENING DATA </strong> </h4>
+                    </div>
+                    <div class="panel-body">
+                    <div class="height ">
+                    <ul >
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/1.pdf" target="_blank"> Screening Log Sheet </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/2.pdf" target="_blank"> Screening </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/3.pdf" target="_blank"> Rescreen </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/4.pdf" target="_blank"> Repeat Screen </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/5.pdf" target="_blank"> Short Portable Mental Status Questionnaire </a></li>
+                    </ul>
+                    </div>
+                        <div class="padtop center">
+                        <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/03678" class="btn btn-default green">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default animated fadeInDown ">
+                    <div class="panel-heading orange">
+                        <h4 class="center">  <strong>BASELINE AND FOLLOW-UP DATA </strong></h4>
+                    </div>
+                    <div class="panel-body ">
+                    <div class="height flow">
+                    <ul >
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/6.pdf" target="_blank"> ADL/IADL </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/7.pdf" target="_blank"> Anxiety Inventory </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/8.pdf" target="_blank"> Bereavement Form </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/9.pdf" target="_blank"> Bereavement--Religiosity</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/10.pdf" target="_blank"> Bereavement--Sociodemographic </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/11.pdf" target="_blank"> Caregiver Health and Health Behaviors </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/12.pdf" target="_blank"> Core Quality Form </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/13.pdf" target="_blank"> Intervention Delivery Assessment </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/14.pdf" target="_blank"> Formal Care and Services</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/15.pdf" target="_blank"> Caregiver Medications</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/16.pdf" target="_blank"> Caregiver Sociodemographic Information</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/17.pdf" target="_blank"> Identification Number</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/18.pdf" target="_blank"> Interview Time</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/19.pdf" target="_blank"> Revised Memory and Behavior Checklist </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/20.pdf" target="_blank"> Mini Mental State Examination</a></li>
+                     <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/21.pdf" target="_blank"> Positive Aspects of Caregiving</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/22.pdf" target="_blank"> Placement Form</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/23.pdf" target="_blank"> Placement--Sociodemographic</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/24.pdf" target="_blank"> Religiosity</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/25.pdf" target="_blank"> Care Recipient Medications</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/26.pdf" target="_blank"> Care Recipient Sociodemographic Information</a></li>
+                     <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/27.pdf" target="_blank"> Social Activities</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/28.pdf" target="_blank">Bereavement--Social Support</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/29.pdf" target="_blank"> Center for Epidemiologic Studies--Depression</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/30.pdf" target="_blank">Follow-Up--Sociodemographic</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/31.pdf" target="_blank"> Follow-Up--Religiosity </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/32.pdf" target="_blank"> Transition--Formal Care Services</a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/33.pdf" target="_blank"> Vigilance</a></li>
+                    </ul>
+                    </div>
+                        <div class="padtop center">
+                        <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/03678" class="btn btn-default orange">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default animated fadeInRight ">
+                    <div class=" panel-heading blue">
+                        <h4 class="center"> <strong>TRACKING DATA AND EXAMINATION </strong></h4>
+                    </div>
+                    <div class="panel-body">
+                    <div class="height ">
+                    <ul >
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/34.pdf" target="_blank"> Care Recipient Tracking </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/35.pdf" target="_blank"> Discontinued Data </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/36.pdf" target="_blank"> Rescreen </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/37.pdf" target="_blank"> Intervention Assignment </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/38.pdf" target="_blank"> Interventionist Characteristics </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/39.pdf" target="_blank"> Off Protocol </a></li>
+                    <li><i class="fa fa-file" aria-hidden="true"></i> &nbsp; <a href="pdfs/40.pdf" target="_blank"> Project Evaluation</a></li>
+                    </ul>
+                    </div>
+                        <div class="padtop center">
+                        <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/03678" class="btn btn-default blue">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!--================================================== End Small boxes -->
+    
+   <!-- Tool Usage
+    ================================================== -->
+         
+        <div class="gray-bg"> <!-- fullwidth gray background -->
+            <br> <br><br><br><br><br>
+            <div class="container"><!-- container -->
+                <div class="row"> <!-- row -->
+                    <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading magenta">
+                        <h4 class="center"><strong> TOOL USAGE </strong></h4>
+                    </div>
+                    <div class="panel-body black">
+                        <h4> <strong><i class="fa fa-hand-o-right" aria-hidden="true"></i> &nbsp; INSTRUCTIONS :</strong></h4><br>
+                         <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            Go through the pdf files  in the above section for understanding data , make sure you go through the datatypes of those files and understand what the numericals mean .
+                         </li>
+                         <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            Click the "work" tab on the navigation bar that will lead you to the selection of above mentioned files to plot.
+                         </li>
+                         <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            Select the files containing datatypes you want to plot and then click submit at the bottom of the page that will lead you to the selection of datatypes in the selected files.
+                         </li>
+                          <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            Checkbox the Datatypes you want to plot and then click submit at the bottom of the page.
+                         </li>
+                         <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            You are good to view the selected plots.
+                         </li>
+
+                         <br>
+                        <h4> <strong><i class="fa fa-hand-o-right" aria-hidden="true"></i> &nbsp; FEATURES :</strong></h4><br>
+                        <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            This tool can adapt to large volume of data , by giving the user to select between ranges of data.
+                         </li>
+
+                         <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            For greater volume of data, user can view different ranges for selection of data , rather than get confined to a single range.
+                         </li>
+
+                         <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            There is a clear option , that clears the graph data for large volume of data , so that the user can view only specific selection of range.
+                         </li>
+
+                         <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            Mix and Match option i.e User will have the option to select different graph data in single graph.
+                         </li>
+
+                         <li><i class="fa fa-crosshairs" aria-hidden="true"></i> &nbsp; 
+                            Finally there is an option to chose the graph between a bar and a pie chart.
+                         </li>
+                    </div>
+                </div>
+            </div>
+                    
+
+                </div> <!-- end row -->
+            </div><!-- end container -->
+
+
+        </div> <!-- end fullwidth gray background -->
+    </div>
+
+<!--================================================== End Tool Usage -->
+
+
+
+
+
+
+{% endblock %}
