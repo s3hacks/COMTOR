@@ -67,7 +67,7 @@
 
 {% if train %}
 <script>
-  var a = {{ url_for('train') |tojson }}
+  var a = {{ url_for('test') |tojson }}
   $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
