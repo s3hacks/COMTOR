@@ -4,6 +4,7 @@ from flask import redirect, flash, render_template, request, session, abort, Res
 from flask_twitter_oembedder import TwitterOEmbedder
 from flask_cache import Cache
 from camera.capture import Camera
+from twitter import mine
 
 # for playing sound
 from pygame import mixer
@@ -135,6 +136,14 @@ def live():
 def live1():
 	train = True
 	return render_template('test.html' , train = train)
+
+
+@app.route('/tweets')   
+def tweets():
+	tweets = mine.tweet_id()
+	tweets = list(set(tweets))
+	return render_template('index.html' , tweets = tweets , scroll = "work")
+
 
 
 
