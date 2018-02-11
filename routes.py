@@ -53,10 +53,10 @@ def get_imagestest(image):
     output : return the frames of the object as a numpy array
     '''    
     global images_positive      
-    val=test_data(images_positive[int(len(images_positive)/2):int(len(images_positive)/2)+20],image)
+    val=test_data(images_positive[int(len(images_positive)/2):int(len(images_positive)/2)+25],image)
 
     print val
-    if(val>.95):
+    if(val>.948):
          mixer.music.play()
 
 
