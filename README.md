@@ -1,5 +1,7 @@
 # COMTOR
 
+It would detect human actions when trained and produces an alarm when the action is repeated. It also detects various habits from twitter. It can be used for the detection of child abuse, domestic violence, habitual monitoring for adults, children and elderly. Can also be used to detect a texting driver. This application provides a better user interface to make a user train the action in no waiting time.
+
 # Requirements
 Python
 OpenCv
